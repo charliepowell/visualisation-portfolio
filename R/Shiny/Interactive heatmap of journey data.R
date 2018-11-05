@@ -7,7 +7,7 @@ library(sp)
 library(chron)
 
 # Set the working directory
-setwd("/Users/charles.powell/Documents/Projects/TFGM/")
+#setwd("/Users/charles.powell/Documents/Projects/TFGM/")
 
 sampleData <- read.csv("journey_data.csv", header=TRUE)
 names(sampleData) <- c('count','lon','lat','date','hour')
